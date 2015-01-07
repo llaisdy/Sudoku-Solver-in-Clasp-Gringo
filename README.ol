@@ -29,6 +29,7 @@ This involved adding one extra predicate, lessEqual/4, which expresses the fact 
 The question grid, pictured (from Sergii's post), is in puzzle_gt.lp.  This script is a set of the constraints between cells, rather than a direct representation of the sudoku grid.
 
 .. image:: puzzle_gt.jpg
+   :height: 300 px
 
 To run the expanded "greater than" solver on this question grid, run the following command:
 
