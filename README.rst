@@ -36,7 +36,7 @@ This involved adding one extra predicate, lessEqual/4, which expresses the fact 
 The question grid, pictured (from Sergii's post), is in puzzle_gt.lp.  This script is a set of the constraints between cells, rather than a direct representation of the sudoku grid.
 
 .. image:: puzzle_gt.jpg
-   :height: 300 px
+   :height: 120 px
 
 To run the expanded "greater than" solver on this question grid, run the following command:
 
@@ -44,7 +44,8 @@ To run the expanded "greater than" solver on this question grid, run the followi
 
   clingo 0 puzzle_gt.lp sudoku.lp sudoku_extra_gt.lp
 
-For more discussion, see my blog post at http://llaisdy.wordpress.com/ [post forthcoming]
+For more discussion, see my blog post `Solving "Greater Than" Sudoku with Answer Set Programming`_
 
+.. _`Solving "Greater Than" Sudoku with Answer Set Programming`: https://llaisdy.wordpress.com/2015/01/08/solving-greater-than-sudoku-with-answer-set-programming/
 
 
